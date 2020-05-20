@@ -1,0 +1,360 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap");
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  background-image: url(../img/hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #26272b;
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+}
+
+.navbar a, li {
+  font-family: 'Rock Salt', cursive;
+  color: #fff !important;
+}
+
+.navbar-toggler {
+  float: right;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+nav {
+  margin: 1em 0 0 0 !important;
+}
+
+.navbar-brand {
+  font-size: 1.8em;
+  margin: 0 1em 0 1em !important;
+}
+
+.navbar-nav li {
+  font-size: 0.9em;
+}
+
+.socialIcons {
+  top: 45%;
+  left: 1%;
+  position: fixed;
+  z-index: 2;
+  color: #fff;
+}
+
+.socialIcons li {
+  list-style: none;
+}
+
+.socialIcons i {
+  color: #FFFFFF;
+}
+
+#boba-img {
+  display: inline-block;
+  width: 100%;
+}
+
+.boba {
+  width: 40%;
+  display: block;
+  margin: 6.1rem auto -1em auto;
+}
+
+.boba-carousel {
+  display: block;
+  margin: 0 auto 0 auto !important;
+}
+
+.carousel-item img {
+  top: 0;
+  left: 0;
+  max-height: 750px !important;
+}
+
+#menu {
+  display: inline-block;
+}
+
+#menu h1 {
+  font-size: 2.5em;
+  text-align: center;
+  font-family: 'Rock Salt', cursive;
+  color: #fff;
+  margin-top: 2em;
+}
+
+#menu img {
+  display: block;
+  width: 50%;
+  margin: 5em auto 0 auto;
+}
+
+#location {
+  display: inline-block;
+  background-color: #26272b;
+}
+
+#location h1 {
+  font-size: 2.5em;
+  text-align: center;
+  font-family: 'Rock Salt', cursive;
+  color: #fff;
+  margin-top: 1em;
+}
+
+#location img {
+  display: block;
+  margin: 3em auto 0 auto;
+  width: 40%;
+}
+
+#location h2 {
+  font-size: 1.5em;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  margin-top: 2em;
+}
+
+#location p {
+  font-size: 1em;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+}
+
+#location .p-time {
+  margin-bottom: 3em;
+}
+
+.news {
+  margin: 10em 10em 4em 10em;
+}
+
+.card {
+  color: #fff;
+  border-style: none;
+}
+
+.card .card-body {
+  background-color: #26272b;
+}
+
+@media (min-width: 768px) and (max-width: 1500px) {
+  body {
+    background-size: 1500px !important;
+  }
+  .socialIcons {
+    top: 45%;
+  }
+  .search {
+    top: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  h1, h2, h5, p {
+    font-size: small !important;
+  }
+  body {
+    background-size: 1500px;
+  }
+  .navbar-collapse .nav-link {
+    padding: 0.9rem 0rem;
+  }
+  .navbar-brand {
+    font-size: 1.4em;
+  }
+  .socialIcons {
+    top: 93%;
+    left: 38.5%;
+  }
+  .socialIcons ul {
+    -webkit-padding-start: 0;
+            padding-inline-start: 0;
+  }
+  .socialIcons ul li {
+    display: inline-block;
+  }
+  .socialIcons ul li .nav-link {
+    padding: .5rem 0.75rem;
+  }
+  .socialIcons .fa-lg {
+    font-size: 1em;
+  }
+  .navbar-toggler {
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .socialIcons {
+    left: 33%;
+  }
+}
+
+.site-footer {
+  background-color: #26272b;
+  padding: 45px 0 20px;
+  font-size: 15px;
+  line-height: 24px;
+  color: #737373;
+}
+
+.site-footer hr {
+  border-top-color: #bbb;
+  opacity: 0.5;
+}
+
+.site-footer hr.small {
+  margin: 20px 0;
+}
+
+.site-footer h6 {
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 5px;
+  letter-spacing: 2px;
+}
+
+.site-footer a {
+  color: #737373;
+}
+
+.site-footer a:hover {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.footer-links {
+  padding-left: 0;
+  list-style: none;
+}
+
+.footer-links li {
+  display: block;
+}
+
+.footer-links a {
+  font-family: 'Montserrat', sans-serif;
+  color: #737373;
+}
+
+.footer-links a:active, .footer-links a:focus, .footer-links a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-links.inline li {
+  display: inline-block;
+}
+
+.site-footer .social-icons {
+  text-align: right;
+}
+
+.site-footer .social-icons a {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: 6px;
+  margin-right: 0;
+  border-radius: 100%;
+  background-color: #33353d;
+}
+
+.copyright-text {
+  margin: 0;
+}
+
+@media (max-width: 991px) {
+  .site-footer [class^=col-] {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .site-footer {
+    padding-bottom: 0;
+  }
+  .site-footer .copyright-text, .site-footer .social-icons {
+    text-align: center;
+  }
+}
+
+.social-icons {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin-bottom: 4px;
+}
+
+.social-icons li.title {
+  margin-right: 15px;
+  text-transform: uppercase;
+  color: #96a2b2;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.social-icons a {
+  background-color: #eceeef;
+  color: #818a91;
+  font-size: 16px;
+  display: inline-block;
+  line-height: 44px;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  margin-right: 8px;
+  border-radius: 100%;
+  -webkit-transition: all .2s linear;
+  transition: all .2s linear;
+}
+
+.social-icons a:active, .social-icons a:focus, .social-icons a:hover {
+  color: #fff;
+  background-color: #29aafe;
+}
+
+.social-icons.size-sm a {
+  line-height: 34px;
+  height: 34px;
+  width: 34px;
+  font-size: 14px;
+}
+
+.social-icons a.facebook:hover {
+  background-color: #3b5998;
+}
+
+.social-icons a.twitter:hover {
+  background-color: #00aced;
+}
+
+.social-icons a.linkedin:hover {
+  background-color: #007bb6;
+}
+
+.social-icons a.instagram:hover {
+  background-color: #e41749;
+}
+
+@media (max-width: 767px) {
+  .social-icons li.title {
+    display: block;
+    margin-right: 0;
+    font-weight: 600;
+  }
+}
+/*# sourceMappingURL=style.css.map */
